@@ -1,0 +1,6 @@
+[submodule "jos"]
+	path = jos
+	url = https://pdos.csail.mit.edu/6.828/2018/jos.git
+[submodule "xv6-public"]
+	path = xv6-public
+	url = https://github.com/mit-pdos/xv6-public.git
