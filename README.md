@@ -18,12 +18,12 @@ Run jos and xv6 on macOS.
   brew install qemu
   ```
 
-- Install `i386-elf-gcc`
+- Install `i386-elf-gcc` and `i386-jos-elf-gdb`
 
   ```shell
   brew tap nativeos/i386-elf-toolchain
   brew install i386-elf-binutils
-  brew install i386-elf-gcc
+  brew install i386-elf-gcc i386-jos-elf-gdb
   ```
 
 ## Source Code
