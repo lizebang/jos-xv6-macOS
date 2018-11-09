@@ -12,7 +12,7 @@ Run jos and xv6 on macOS.
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
 
-- Install qemu
+- Install `qemu`
 
   ```shell
   brew install qemu
