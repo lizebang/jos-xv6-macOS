@@ -6,22 +6,25 @@ Run jos and xv6 on macOS.
 
 ## Requirements
 
-- Homebrew: https://brew.sh/
+- Install Homebrew
 
-  - Install qemu
+  ```shell
+  /usr/bin/ruby -e "$(curl -fsSL https
+  ```
 
-    ```shell
-    brew install qemu
-    ```
+- Install qemu
 
-- MacPorts: https://www.macports.org/
+  ```shell
+  brew install qemu
+  ```
 
-  - Install `i386-elf-gcc`
+- Install `i386-elf-gcc`
 
-    ```shell
-    sudo port -v selfupdate
-    sudo port install i386-elf-gcc
-    ```
+  ```shell
+  brew tap nativeos/i386-elf-toolchain
+  brew install i386-elf-binutils
+  brew install i386-elf-gcc
+  ```
 
 ## Source Code
 
