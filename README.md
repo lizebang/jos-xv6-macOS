@@ -31,16 +31,3 @@ Run jos and xv6 on macOS.
 git clone https://pdos.csail.mit.edu/6.828/2018/jos.git
 git clone git://github.com/mit-pdos/xv6-public.git
 ```
-
-## Modify for macOS
-
-Replace all `i386-jos-elf` in the files (`jos/GNUmakefile` and `xv6-public/Makefile`) with `i386-elf` .
-
-## Run
-
-Use qemu.
-
-```shell
-qemu-system-i386 -serial mon:stdio -hdb fs.img xv6.img -smp 1 -m 512
-```
-
