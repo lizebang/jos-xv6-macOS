@@ -6,10 +6,16 @@ Run jos and xv6 on macOS.
 
 ## Requirements
 
-- Install Homebrew
+- Install Homebrew _need Xcode_
 
   ```shell
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
+
+- Install `Git`
+
+  ```shell
+  brew install git
   ```
 
 - Install `qemu`
